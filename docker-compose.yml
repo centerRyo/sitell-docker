@@ -21,4 +21,12 @@ services:
       MYSQL_DATABASE: ronbun-lab
       MYSQL_ROOT_PASSWORD: root
       TZ: Asia/Tokyo
-
+  
+  test_db:
+      image: mysql:5.7
+      ports:
+        - "3306"
+      environment:
+        MYSQL_DATABASE: ronbun-lab
+        MYSQL_ROOT_PASSWORD: root
+        TZ: Asia/Tokyo
