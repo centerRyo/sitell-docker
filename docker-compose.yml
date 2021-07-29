@@ -20,7 +20,7 @@ services:
     volumes:
       - ./docker/my.conf:/etc/mysql/conf.d/my.conf
     environment:
-      MYSQL_DATABASE: ronbun-lab
+      MYSQL_DATABASE: sitell
       MYSQL_ROOT_PASSWORD: root
       TZ: Asia/Tokyo
   
@@ -31,6 +31,6 @@ services:
       volumes:
         - ./docker/my.conf:/etc/mysql/conf.d/my.conf
       environment:
-        MYSQL_DATABASE: ronbun-lab
+        MYSQL_DATABASE: sitell
         MYSQL_ROOT_PASSWORD: root
         TZ: Asia/Tokyo
