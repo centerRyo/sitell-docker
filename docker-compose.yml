@@ -8,9 +8,9 @@ services:
       - "80:80"
     volumes:
       - ./:/var/www/
-    working_dir: "/var/www/ronbun-lab"
+    working_dir: "/var/www/sitell"
     environment:
-      APACHE_DOCUMENT_ROOT: /var/www/ronbun-lab/public
+      APACHE_DOCUMENT_ROOT: /var/www/sitell/public
       TZ: Asia/Tokyo
 
   db:
