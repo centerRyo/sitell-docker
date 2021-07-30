@@ -1,4 +1,12 @@
 # このリポジトリについて
+このリポジトリは論文解説サービスであるsitell(https://sitell.me)のdocker開発環境のためのものとなります。
+
+# 使用技術
+- Docker v20.10.5
+- docker-compose v1.29.0
+- PHP v7.4
+- Laravel v6.20.26
+- Composer v1.10.9
 
 # 環境構築のやり方
 1. このリポジトリをgit clone
