@@ -8,9 +8,9 @@ services:
       - "80:80"
     volumes:
       - ./:/var/www/
-    working_dir: "/var/www/ronbun-lab"
+    working_dir: "/var/www/sitell"
     environment:
-      APACHE_DOCUMENT_ROOT: /var/www/ronbun-lab/public
+      APACHE_DOCUMENT_ROOT: /var/www/sitell/public
       TZ: Asia/Tokyo
 
   db:
@@ -20,7 +20,7 @@ services:
     volumes:
       - ./docker/my.conf:/etc/mysql/conf.d/my.conf
     environment:
-      MYSQL_DATABASE: ronbun-lab
+      MYSQL_DATABASE: sitell
       MYSQL_ROOT_PASSWORD: root
       TZ: Asia/Tokyo
   
@@ -31,6 +31,6 @@ services:
       volumes:
         - ./docker/my.conf:/etc/mysql/conf.d/my.conf
       environment:
-        MYSQL_DATABASE: ronbun-lab
+        MYSQL_DATABASE: sitell
         MYSQL_ROOT_PASSWORD: root
         TZ: Asia/Tokyo
