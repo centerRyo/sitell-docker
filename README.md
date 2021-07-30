@@ -1,5 +1,5 @@
 # このリポジトリについて
-このリポジトリは論文解説サービスであるsitell(https://sitell.me)のdocker開発環境のためのものとなります。
+このリポジトリは論文解説サービスであるsitell( https://sitell.me )のdocker開発環境のためのものとなります。
 
 # 使用技術
 - Docker v20.10.5
